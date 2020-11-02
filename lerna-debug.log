@@ -1,0 +1,17 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js',
+0 silly argv   name: 'package-1'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath C:\Users\zwh86\Desktop\lernaDemo\lernaStudy
+3 error Error: Command failed: git config --get user.name
+3 error
+3 error
+3 error     at makeError (C:\Users\zwh86\AppData\Roaming\nvm\v12.14.0\node_modules\lerna\node_modules\execa\index.js:174:9)
+3 error     at Function.module.exports.sync (C:\Users\zwh86\AppData\Roaming\nvm\v12.14.0\node_modules\lerna\node_modules\execa\index.js:338:15)
+3 error     at Object.execSync (C:\Users\zwh86\AppData\Roaming\nvm\v12.14.0\node_modules\lerna\node_modules\@lerna\child-process\index.js:26:16)
+3 error     at CreateCommand.gitConfig (C:\Users\zwh86\AppData\Roaming\nvm\v12.14.0\node_modules\lerna\node_modules\@lerna\create\index.js:181:34)
+3 error     at CreateCommand.initialize (C:\Users\zwh86\AppData\Roaming\nvm\v12.14.0\node_modules\lerna\node_modules\@lerna\create\index.js:103:46)
+3 error     at C:\Users\zwh86\AppData\Roaming\nvm\v12.14.0\node_modules\lerna\node_modules\@lerna\command\index.js:272:24
